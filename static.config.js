@@ -21,4 +21,5 @@ export default {
       },
     ]
   },
+  siteRoot: 'https://marymar.github.io/react-static-review-overview/'
 }
