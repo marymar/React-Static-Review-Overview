@@ -11,7 +11,3 @@ export default getSiteProps(({ task }) => (
     <span className="task__summary">{task.summary}</span>
   </div>
 ))
-
-
-
-
