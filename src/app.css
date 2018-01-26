@@ -29,6 +29,10 @@ a {
 img {
   max-width: 100%;
 }
+.rwd-img {
+  width: 100%;
+  height: auto;
+}
 
 .content {
   padding: 1rem;
@@ -36,9 +40,10 @@ img {
   max-width: 800px;
 }
 
-
 /* HEADER */
 .header {
+  padding: 1em;
+
   background-color: #b3c2df;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(226, 0, 121)),color-stop(0.193, rgb(223, 19, 44)),color-stop(0.409, rgb(243, 239, 21)),color-stop(0.59, rgb(0, 152, 71)),color-stop(0.814, rgb(0, 165, 223)),color-stop(1, rgb(62, 20, 123)));
   /* Android 2.3 */
@@ -47,28 +52,31 @@ img {
   background-image: repeating-linear-gradient(to bottom,rgb(226, 0, 121) 0%,rgb(223, 19, 44) 19.3%,rgb(243, 239, 21) 40.9%,rgb(0, 152, 71) 59%,rgb(0, 165, 223) 81.4%,rgb(62, 20, 123) 100%);
   background-image: -ms-repeating-linear-gradient(top,rgb(226, 0, 121) 0%,rgb(223, 19, 44) 19.3%,rgb(243, 239, 21) 40.9%,rgb(0, 152, 71) 59%,rgb(0, 165, 223) 81.4%,rgb(62, 20, 123) 100%);
 
-  padding: 1em;
 }
 
-
-.header__logo {
-  margin-right: 2em;
-}
 .header__content {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   padding: .5em;
   background-color:  rgba(255, 255, 255, .5);
   margin: 0 auto;
+}
+.header__logo {
+  flex: 0 0 20vw;
+  margin-right: 2em;
+  width: 100%;
+  height: auto;
+}
+
+.header__sprintinfo {
+  flex: 1 1 80%;
+  text-align: center;
 }
 
 .header__headline {
   margin: 1em .25em .5em .25em;
 }
 
-.header__sprintinfo {
-  text-align: center;
-}
 .header__sprintinfo-name {
   font-size: 1.2em;
   font-weight: 700;
