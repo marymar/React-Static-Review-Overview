@@ -445,7 +445,11 @@ exports.default = (0, _reactStatic.getSiteProps)(function (_ref) {
     _react2.default.createElement(
       'div',
       { className: 'header__content' },
-      _react2.default.createElement('img', { className: 'header__logo', src: _logoAlodo2.default, alt: 'Unicorn' }),
+      _react2.default.createElement(
+        'div',
+        { className: 'header__logo' },
+        _react2.default.createElement('img', { className: 'rwd-img', src: _logoAlodo2.default, alt: 'Unicorn' })
+      ),
       _react2.default.createElement(
         'div',
         { className: 'header__sprintinfo' },
@@ -723,4 +727,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.0f673d53.js.map
+//# sourceMappingURL=app.static.052673ec.js.map
