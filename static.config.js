@@ -1,15 +1,26 @@
 import axios from 'axios'
+import { reviews, legend } from './public/data/reviews.json'
 
 export default {
   getSiteProps: () => ({
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
     return [
       {
         path: '/',
         component: 'src/containers/Home',
+        getProps: async () => ({
+          reviews
+        }),
+        children: reviews.map(review => ({
+          path: `/review/${review.id}`,
+          component: 'src/containers/Review',
+          getProps: () => ({
+            review,
+            legend
+          })
+        }))
       },
       {
         path: '/about',

@@ -1,0 +1,94 @@
+{
+  "reviews": [
+    {
+      "id":"12",
+      "period": "10. - 23.01.2018",
+      "name": "Pippi Langstrumpf",
+      "quote": "Das habe ich noch nie vorher versucht, also bin ich völlig sicher, dass ich das schaffe!",
+      "goals": [
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
+        "Quis enim. Donec pede justo, fringilla vel"
+      ],
+      "sections": [
+        {
+          "title": "Tracking",
+          "tasks": [
+            {"key": "AC-3629", "summary": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem", "status": "planned"},
+            {"key": "AC-3290", "summary": "Far far away, behind the word mountains, far from the", "status": "planned"},
+            {"key": "AC-3630", "summary": "A wonderful serenity has taken possession of my entire soul,", "status": "added"}
+          ]
+        },
+        {
+          "title": "A/B Testing",
+          "tasks": [
+            {"key": "AC-3614", "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo", "status": "planned"},
+            {"key": "AC-3615", "summary": "One morning, when Gregor Samsa woke from troubled dreams, he", "status": "planned"}
+          ]
+        },
+        {
+          "title": "Slots / Banner",
+          "tasks": [
+            {"key": "AC-3399", "summary": "The quick, brown fox jumps over a lazy dog. DJs", "status": "planned"},
+            {"key": "AC-3631", "summary": "Far far away, behind the word mountains, far from the", "status": "removed"}
+          ]
+        },
+        {
+          "title": "My Account",
+          "tasks": [
+            {"key": "AC-3612", "summary": "The European languages are members of the same family.", "status": "added"},
+            {"key": "AC-3612", "summary": "The quick, brown fox jumps over a lazy dog.", "status": "not-done"}
+          ]
+        }
+      ]
+    },
+
+    {
+      "id":"13",
+      "period": "10. - 23.01.2018",
+      "name": "Xkhasdf asdfkhasd ",
+      "quote": "blubb bla",
+      "goals": [
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo",
+        "Quis enim. Donec pede justo, fringilla vel"
+      ],
+      "sections": [
+        {
+          "title": "Tracking",
+          "tasks": [
+            {"key": "AC-3629", "summary": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem", "status": "planned"},
+            {"key": "AC-3290", "summary": "Far far away, behind the word mountains, far from the", "status": "planned"},
+            {"key": "AC-3630", "summary": "A wonderful serenity has taken possession of my entire soul,", "status": "added"}
+          ]
+        },
+        {
+          "title": "A/B Testing",
+          "tasks": [
+            {"key": "AC-3614", "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo", "status": "planned"},
+            {"key": "AC-3615", "summary": "One morning, when Gregor Samsa woke from troubled dreams, he", "status": "planned"}
+          ]
+        },
+        {
+          "title": "Slots / Banner",
+          "tasks": [
+            {"key": "AC-3399", "summary": "The quick, brown fox jumps over a lazy dog. DJs", "status": "planned"},
+            {"key": "AC-3631", "summary": "Far far away, behind the word mountains, far from the", "status": "removed"}
+          ]
+        },
+        {
+          "title": "My Account",
+          "tasks": [
+            {"key": "AC-3612", "summary": "The European languages are members of the same family.", "status": "added"},
+            {"key": "AC-3612", "summary": "The quick, brown fox jumps over a lazy dog.", "status": "not-done"}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "legend": {
+    "status": ["planned", "added", "removed", "not-done", "blocked"]
+  }
+
+
+
+}
