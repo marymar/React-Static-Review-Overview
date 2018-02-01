@@ -10,11 +10,11 @@ class HomePage extends Component {
 
   render () {
     return (
-      <ul>
+      <ul className="overview-list">
         {
           this.props.reviews.map(review => (
-            <li key={`item-${review.id}`}>
-              <a key={`item-link-${review.id}`} href={`review/${review.id}`}>Sprint {review.id} - {review.name}</a>
+            <li className="overview-list__item" key={`item-${review.id}`}>
+              <a className="overview-list__item-link" key={`item-link-${review.id}`} href={`review/${review.id}`}>Sprint {review.id} - {review.name}</a>
             </li>
           ))
         }

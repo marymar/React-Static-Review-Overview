@@ -1,0 +1,46 @@
+// HEADER
+.header {
+  padding: 1em;
+
+  background-color: #b3c2df;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,color-stop(0, rgb(226, 0, 121)),color-stop(0.193, rgb(223, 19, 44)),color-stop(0.409, rgb(243, 239, 21)),color-stop(0.59, rgb(0, 152, 71)),color-stop(0.814, rgb(0, 165, 223)),color-stop(1, rgb(62, 20, 123)));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top,rgb(226, 0, 121) 0%,rgb(223, 19, 44) 19.3%,rgb(243, 239, 21) 40.9%,rgb(0, 152, 71) 59%,rgb(0, 165, 223) 81.4%,rgb(62, 20, 123) 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom,rgb(226, 0, 121) 0%,rgb(223, 19, 44) 19.3%,rgb(243, 239, 21) 40.9%,rgb(0, 152, 71) 59%,rgb(0, 165, 223) 81.4%,rgb(62, 20, 123) 100%);
+  background-image: -ms-repeating-linear-gradient(top,rgb(226, 0, 121) 0%,rgb(223, 19, 44) 19.3%,rgb(243, 239, 21) 40.9%,rgb(0, 152, 71) 59%,rgb(0, 165, 223) 81.4%,rgb(62, 20, 123) 100%);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    padding: .5em;
+    background-color:  rgba(255, 255, 255, .5);
+    margin: 0 auto;
+  }
+
+  &__logo {
+    flex: 0 0 20vw;
+    margin-right: 2em;
+    width: 100%;
+    height: auto;
+  }
+
+  &__sprintinfo {
+    flex: 1 1 80%;
+    text-align: center;
+  }
+
+  &__headline {
+    margin: 1em .25em .5em .25em;
+  }
+
+  &__sprintinfo-name {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  &__sprintinfo-quote {
+    font-weight: 700;
+    font-style: oblique;
+  }
+}

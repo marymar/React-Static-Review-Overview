@@ -16,7 +16,11 @@
     "react-static": "^4.8.5"
   },
   "devDependencies": {
+    "css-loader": "^0.28.9",
     "eslint-config-react-tools": "1.x.x",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "sass-loader": "^6.0.6",
     "serve": "^6.1.0"
   }
 }

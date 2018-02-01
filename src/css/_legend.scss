@@ -1,0 +1,10 @@
+// LEGEND
+.legend-status {
+  text-align: center;
+
+  &__item {
+    display: inline-block;
+    margin-right: 2em;
+    text-transform: uppercase;
+  }
+}

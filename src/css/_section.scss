@@ -1,0 +1,13 @@
+// SECTION
+.section {
+  display: flex;
+
+  &__title {
+    font-weight: 700;
+    flex: 0 0 20%;
+  }
+
+  &__tasks {
+    flex: 0 0 80%;
+  }
+}

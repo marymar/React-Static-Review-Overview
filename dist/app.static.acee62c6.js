@@ -709,14 +709,14 @@ var HomePage = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'ul',
-        null,
+        { className: 'overview-list' },
         this.props.reviews.map(function (review) {
           return _react2.default.createElement(
             'li',
-            { key: 'item-' + review.id },
+            { className: 'overview-list__item', key: 'item-' + review.id },
             _react2.default.createElement(
               'a',
-              { key: 'item-link-' + review.id, href: 'review/' + review.id },
+              { className: 'overview-list__item-link', key: 'item-link-' + review.id, href: 'review/' + review.id },
               'Sprint ',
               review.id,
               ' - ',
@@ -808,4 +808,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=app.static.3b38d04e.js.map
+//# sourceMappingURL=app.static.acee62c6.js.map

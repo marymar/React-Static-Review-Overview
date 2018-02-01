@@ -3,7 +3,7 @@ import { Router, Link } from 'react-static'
 //
 import Routes from 'react-static-routes'
 
-import './app.css'
+import './css/app.scss'
 
 export default () => (
   <Router>

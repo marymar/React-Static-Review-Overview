@@ -1,0 +1,13 @@
+// GOALS LIST
+.goals-list{
+  margin: .5em 0;
+
+  &__item {
+    color: #EF2A89;
+  }
+
+  &__item::before {
+    content: '✪';
+    margin-right: .5em;
+  }
+}

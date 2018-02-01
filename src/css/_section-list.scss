@@ -1,0 +1,14 @@
+// SECTIONS LIST
+.sections-list {
+  margin: .5em 0;
+  padding: 1em 0;
+
+  &__item {
+    border-bottom: 1px solid #b3c2df;
+    margin: .5em;
+  }
+
+  &__item:last-child {
+    border: none;
+  }
+}

@@ -1,0 +1,31 @@
+// STATUS
+.status {
+  margin-right: .25em;
+  font-size: 1.5em;
+  font-weight: 700;
+
+  &--added::before {
+    content: '⊕';
+    color: green;
+  }
+
+  &--removed::before {
+    content: '⊖';
+    color: orange;
+  }
+
+  &--planned::before {
+    content: '✓';
+    color: $color-fluffy;
+  }
+
+  &--not-done::before {
+    content: '×';
+    color: red;
+  }
+
+  &--blocked::before {
+    content: '!';
+    color: red;
+  }
+}
